@@ -5,7 +5,7 @@ export const DRAWER_WIDTH = 200;
 export const TOKEN_KEY = 'token';
 export const USERNAME_KEY = 'username';
 
-export const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:4000/api';
+export const API_URL = `${import.meta.env.VITE_API_URL || 'http://localhost:4000'}/api`;
 
 export const FLIGHT_INITIAL_STATE = {
   uuid: "",
