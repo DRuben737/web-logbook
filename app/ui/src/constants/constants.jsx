@@ -5,7 +5,7 @@ export const DRAWER_WIDTH = 200;
 export const TOKEN_KEY = 'token';
 export const USERNAME_KEY = 'username';
 
-export const API_URL = 'https://api.pilotseal.com/logbook';
+export const API_URL = 'https://api.pilotseal.com/api';
 
 export const FLIGHT_INITIAL_STATE = {
   uuid: "",
